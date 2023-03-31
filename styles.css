@@ -1,0 +1,75 @@
+
+
+
+
+body {
+    background-image: url(images/starbucks-r.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-main-content {
+    margin-top:10px; 
+    padding:140px;
+}
+ 
+.landing-menu-wrapper {
+    margin-top: -50px;
+    padding:40px;
+    padding-top:70px;
+    padding-bottom:120px;
+    border-radius:20px;
+    background-color:rgba(255, 255, 255, 0.913);
+    height:auto;
+    width:30%;
+}
+
+.landing-menu-icon-button {
+    height:auto;
+    padding:20px; 
+    width:150px;
+    border-radius: 20px;
+    margin:6px;
+    cursor: pointer;
+}
+.landing-menu-icon-button:hover {
+    background-color: rgb(5, 77, 5);
+    border: none;
+    color:white;
+}
+
+
+
+
+.landing-menu-icon-button span {
+   font-size:40px;
+}
+
+
+ 
+@media only screen and (max-width: 720px) 
+{    
+    *{
+        box-sizing: border-box;
+    }
+    .landing-main-content { 
+        padding:20px;
+    }
+    .landing-menu-wrapper { 
+        width:100%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) 
+{    
+    *{
+        box-sizing: border-box;
+    }
+    .landing-main-content { 
+        padding:20px;
+    }
+    .landing-menu-wrapper { 
+        width:80%;
+    }
+}
